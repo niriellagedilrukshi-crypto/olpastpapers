@@ -1,0 +1,3 @@
+module.exports=[66188,a=>{"use strict";var b=a.i(7997),c=a.i(95936);a.s(["default",0,function(){return(0,b.jsxs)("section",{className:"notFound",children:[(0,b.jsx)("span",{children:"404"}),(0,b.jsx)("h1",{children:"මේ paper එක හමුවුණේ නැහැ"}),(0,b.jsx)("p",{children:"Link එක වෙනස් වී තිබිය හැක. Subject page එකෙන් නැවත සොයන්න."}),(0,b.jsx)(c.default,{className:"primary",href:"/",children:"මුල් පිටුවට යන්න"})]})}])},2894,function(a){a.n(a.i(66188))}];
+
+//# sourceMappingURL=app_not-found_tsx_1gi3i27._.js.map
