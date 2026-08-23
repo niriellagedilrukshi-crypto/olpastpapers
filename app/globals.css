@@ -8,57 +8,7 @@
 .answer.paperOnly{background:#ece9fb;color:var(--violet)}.answer.complete{background:#dff1be;color:#47752d}.answer.answerOnly{background:#fff0dc;color:#a66328}
 .answerBox{background:#eeebff;border-left:4px solid var(--violet);border-radius:13px;padding:18px 20px;margin-bottom:28px}.answerBox>b{font:800 9px 'Manrope';letter-spacing:1px;color:var(--violet)}.answerBox p{font-size:11px;line-height:1.9;margin:7px 0;color:#4f4b63}.answerBox span,.answerBox a{font-size:8px;color:var(--violet);font-weight:700}.availabilityWrap{overflow-x:auto;border:1px solid var(--line);border-radius:15px}.availability{width:100%;border-collapse:collapse;background:white;min-width:650px}.availability th,.availability td{border-bottom:1px solid var(--line);border-right:1px solid var(--line);padding:10px;text-align:left}.availability tr:last-child th,.availability tr:last-child td{border-bottom:0}.availability th:last-child,.availability td:last-child{border-right:0}.availability thead th{background:#f3f1ec;font:800 8px 'Manrope';letter-spacing:.7px;color:var(--muted)}.availability tbody>tr>th{font:800 12px 'Manrope';width:85px}.availability td>a{display:flex;flex-direction:column;border-radius:8px;padding:9px;min-height:48px}.availability td>a b{font-size:8px}.availability td>a small{font-size:7px;margin-top:3px}.cellComplete{background:#e5f3ce;color:#47752d}.cellAnswer{background:#fff0dc;color:#9a602c}.cellPaper{background:#eeebff;color:var(--violet)}.unavailable{color:#c1bdc9;display:block;text-align:center}.mediumSwitch{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-top:22px}.mediumSwitch>span:first-child{font-size:9px;font-weight:700;color:var(--muted)}.mediumSwitch a,.disabledMedium{font-size:8px;padding:7px 9px;border:1px solid var(--line);border-radius:7px;background:white}.mediumSwitch a.active{background:var(--violet);border-color:var(--violet);color:white}.disabledMedium{opacity:.45}.yearNav{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px;margin-bottom:20px}.yearNav>a{border:1px solid var(--line);background:white;border-radius:12px;padding:14px;display:flex;flex-direction:column}.yearNav>a:last-child{text-align:right}.yearNav span{font-size:8px;color:var(--muted)}.yearNav b{font-size:10px;margin-top:4px}.sameYear{padding-top:0}.visibleFaq{margin-top:42px}.visibleFaq details{border-top:1px solid var(--line);padding:14px 2px}.visibleFaq summary{cursor:pointer;font-size:10px;font-weight:700}.visibleFaq details p{font-size:9px;color:var(--muted);line-height:1.8}.yearContent{padding:60px 0 80px}.yearContent>.statStrip{background:white;border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:25px}.yearLinks{margin-top:40px}.yearLinks h2{font-size:17px}.yearLinks a{display:inline-block;margin:5px 5px 0 0;padding:8px 10px;background:white;border:1px solid var(--line);border-radius:8px;font-size:8px;font-weight:700}
 @media(max-width:680px){.statStrip{grid-template-columns:1fr 1fr}.statStrip>div:nth-child(2){border-right:0}.latestGrid{grid-template-columns:1fr}.yearNav{grid-template-columns:1fr}.yearNav>a:last-child{text-align:left}.answerBox p{font-size:10px}}
-/* Mobile overflow guard */
-html,
-body {
-  max-width: 100%;
-  overflow-x: clip;
-}
-
-.heroGrid,
-.heroCopy,
-.finder {
-  min-width: 0;
-  max-width: 100%;
-}
-
-.hero h1 {
-  overflow-wrap: break-word;
-  word-break: normal;
-}
-
-.heroCopy {
-  padding-inline: 3px;
-}
-
-@media (max-width: 680px) {
-  .hero h1 {
-    font-size: 37px;
-    line-height: 1.24;
-    letter-spacing: -1.4px;
-  }
-
-  .heroCopy > p {
-    line-height: 1.9;
-  }
-
-  .finder {
-    width: 100%;
-  }
-}
-
-@media (max-width: 390px) {
-  .hero h1 {
-    font-size: 34px;
-    letter-spacing: -1px;
-  }
-
-  .heroButtons {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .heroButtons .plain {
-    margin-left: 3px;
-  }
-}
+/* Mobile overflow guard: Sinhala glyphs and mixed-script headings must stay inside viewport. */
+html,body{max-width:100%;overflow-x:clip}.heroGrid,.heroCopy,.finder{min-width:0;max-width:100%}.hero h1{overflow-wrap:break-word;word-break:normal}.heroCopy{padding-inline:3px}
+@media(max-width:680px){.hero h1{font-size:37px;line-height:1.24;letter-spacing:-1.4px}.heroCopy>p{line-height:1.9}.finder{width:100%}}
+@media(max-width:390px){.hero h1{font-size:34px;letter-spacing:-1px}.heroButtons{align-items:flex-start;flex-direction:column}.heroButtons .plain{margin-left:3px}}

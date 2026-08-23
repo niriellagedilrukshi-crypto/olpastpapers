@@ -71,9 +71,9 @@ for(const resource of data.resources||[]){
   if(lower.includes("piriven"))continue;
   const year=Number(title.match(/20\d{2}/)?.[0]);
   if(!displayYears[year])continue;
-  const rawLabel=(resource.description?.en||"").trim()||title.split(" - ").at(-1)||"";
-  const descriptor=rawLabel.toLowerCase().replace(/\s+/g," ").replace(/^\/+\s*/,"").replace(/^\(?\d+\)?\s*[-–]\s*/,"").trim();
-  const subject=subjects.find(([,terms])=>terms.some(term=>descriptor===term||descriptor.startsWith(`${term} - paper`)))?.[0];
+  const rawLabel=(resource.description?.en||"").trim()||title.split(/\s*[-–]\s*/).at(-1)||"";
+  const descriptor=rawLabel.toLowerCase().replace(/\s+/g," ").replace(/^\/+\s*/,"").replace(/^\(?\d+\)?\s*[-–]\s*/,"").replace(/\s*\((new|old) syllabus\)\s*$/," ").trim();
+  const subject=subjects.find(([,terms])=>terms.some(term=>descriptor===term||descriptor.startsWith(`${term} `)||descriptor.startsWith(`${term} -`)))?.[0];
   if(!subject)continue;
   for(const group of resource.links||[]){
     for(const [code,path] of Object.entries(group.link||{})){
