@@ -8,7 +8,7 @@ const subjects=[
   ["english",["english language"]],
   ["history",["history","ඉතිහාසය"]],
   ["ict",["information & communication technology","information and communication technology"]],
-  ["sinhala-language",["sinhala language"]],
+  ["sinhala-language",["sinhala language & literature","sinhala language and literature"]],
   ["business-accounting",["business & accounting","business and accounting"]],
   ["geography",["geography"]],
   ["buddhism",["buddhism"]],
