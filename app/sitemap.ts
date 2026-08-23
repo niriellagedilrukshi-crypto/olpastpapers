@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 const base=site.url;
 export default function sitemap():MetadataRoute.Sitemap{
  return [
-  {url:base,lastModified:new Date(),changeFrequency:"daily",priority:1},
+  {url:`${base}/`,lastModified:new Date(),changeFrequency:"daily",priority:1},
   {url:`${base}/ol-past-papers/`,lastModified:new Date(),changeFrequency:"daily",priority:.95},
   {url:`${base}/ol-marking-schemes/`,lastModified:new Date(),changeFrequency:"weekly",priority:.9},
   {url:`${base}/guides/`,lastModified:new Date(),changeFrequency:"weekly",priority:.8},
