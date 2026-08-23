@@ -330,6 +330,17 @@
     "updatedAt": "2026-08-21"
   },
   {
+    "id": "2025-sinhala-language-sinhala",
+    "subject": "sinhala-language",
+    "year": 2025,
+    "displayYear": "2025 (2026)",
+    "medium": "sinhala",
+    "paperUrl": "https://www.doenets.lk/images/resources/PAPA/2025(2026)21SI,II_compressed_1787293478365.pdf",
+    "sourceName": "Department of Examinations Sri Lanka",
+    "sourceUrl": "https://www.doenets.lk/pastpapers",
+    "updatedAt": "2026-08-21"
+  },
+  {
     "id": "2025-tamil-language-tamil",
     "subject": "tamil-language",
     "year": 2025,
@@ -814,6 +825,17 @@
     "updatedAt": "2026-02-05"
   },
   {
+    "id": "2024-sinhala-language-sinhala",
+    "subject": "sinhala-language",
+    "year": 2024,
+    "displayYear": "2024 (2025)",
+    "medium": "sinhala",
+    "paperUrl": "https://www.doenets.lk/images/resources/PAPA/21S12-02022026122747_1770026811442.pdf",
+    "sourceName": "Department of Examinations Sri Lanka",
+    "sourceUrl": "https://www.doenets.lk/pastpapers",
+    "updatedAt": "2026-02-05"
+  },
+  {
     "id": "2024-tamil-language-tamil",
     "subject": "tamil-language",
     "year": 2024,
@@ -1199,6 +1221,17 @@
     "updatedAt": "2026-02-05"
   },
   {
+    "id": "2023-sinhala-language-sinhala",
+    "subject": "sinhala-language",
+    "year": 2023,
+    "displayYear": "2023 (2024)",
+    "medium": "sinhala",
+    "paperUrl": "https://www.doenets.lk/images/resources/PAPA/21%20S%201,%2011-06122025152720_1769678806203.pdf",
+    "sourceName": "Department of Examinations Sri Lanka",
+    "sourceUrl": "https://www.doenets.lk/pastpapers",
+    "updatedAt": "2026-01-29"
+  },
+  {
     "id": "2023-tamil-language-tamil",
     "subject": "tamil-language",
     "year": 2023,
@@ -1436,6 +1469,17 @@
     "displayYear": "2022 (2024)",
     "medium": "sinhala",
     "paperUrl": "https://www.doenets.lk/images/resources/PAPA/34%20S%20%20I%20II-07292024134248_1725364060957.pdf",
+    "sourceName": "Department of Examinations Sri Lanka",
+    "sourceUrl": "https://www.doenets.lk/pastpapers",
+    "updatedAt": "2024-09-03"
+  },
+  {
+    "id": "2022-sinhala-language-sinhala",
+    "subject": "sinhala-language",
+    "year": 2022,
+    "displayYear": "2022 (2024)",
+    "medium": "sinhala",
+    "paperUrl": "https://www.doenets.lk/images/resources/PAPA/21%20%20S%20I%20II-07292024133524_1725359409618.pdf",
     "sourceName": "Department of Examinations Sri Lanka",
     "sourceUrl": "https://www.doenets.lk/pastpapers",
     "updatedAt": "2024-09-03"
@@ -1920,6 +1964,17 @@
     "displayYear": "2019",
     "medium": "tamil",
     "paperUrl": "https://www.doenets.lk/documents/past-papers/Science-34-1-T-11.pdf",
+    "sourceName": "Department of Examinations Sri Lanka",
+    "sourceUrl": "https://www.doenets.lk/pastpapers",
+    "updatedAt": "2020-06-23"
+  },
+  {
+    "id": "2019-sinhala-language-sinhala",
+    "subject": "sinhala-language",
+    "year": 2019,
+    "displayYear": "2019",
+    "medium": "sinhala",
+    "paperUrl": "https://www.doenets.lk/documents/past-papers/singhala%20language%20and%20literature-21,S,i,ii.pdf",
     "sourceName": "Department of Examinations Sri Lanka",
     "sourceUrl": "https://www.doenets.lk/pastpapers",
     "updatedAt": "2020-06-23"
@@ -2470,6 +2525,17 @@
     "displayYear": "2018",
     "medium": "tamil",
     "paperUrl": "https://www.doenets.lk/documents/past-papers/34Tamil0102-09092019185803.pdf",
+    "sourceName": "Department of Examinations Sri Lanka",
+    "sourceUrl": "https://www.doenets.lk/pastpapers",
+    "updatedAt": "2020-06-23"
+  },
+  {
+    "id": "2018-sinhala-language-sinhala",
+    "subject": "sinhala-language",
+    "year": 2018,
+    "displayYear": "2018",
+    "medium": "sinhala",
+    "paperUrl": "https://www.doenets.lk/documents/past-papers/21sinhala0102-09092019184546.pdf",
     "sourceName": "Department of Examinations Sri Lanka",
     "sourceUrl": "https://www.doenets.lk/pastpapers",
     "updatedAt": "2020-06-23"
@@ -3053,6 +3119,17 @@
     "displayYear": "2015",
     "medium": "tamil",
     "paperUrl": "https://www.doenets.lk/documents/past-papers/34T0102-12102019191822.pdf",
+    "sourceName": "Department of Examinations Sri Lanka",
+    "sourceUrl": "https://www.doenets.lk/pastpapers",
+    "updatedAt": "2020-06-23"
+  },
+  {
+    "id": "2015-sinhala-language-sinhala",
+    "subject": "sinhala-language",
+    "year": 2015,
+    "displayYear": "2015",
+    "medium": "sinhala",
+    "paperUrl": "https://www.doenets.lk/documents/past-papers/21S0102-12102019183831.pdf",
     "sourceName": "Department of Examinations Sri Lanka",
     "sourceUrl": "https://www.doenets.lk/pastpapers",
     "updatedAt": "2020-06-23"
