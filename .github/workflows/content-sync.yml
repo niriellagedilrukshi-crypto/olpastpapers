@@ -1,0 +1,45 @@
+name: Sync official papers and answers
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 3 * * 3"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run sync:content
+
+      - run: npm run validate:content
+
+      - run: npm run audit:seo
+
+      - run: npm run build
+
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/official-content-sync
+          delete-branch: true
+          commit-message: "content: sync official O/L papers and answers"
+          title: "Official O/L content update"
+          body: |
+            Automated update from the Department of Examinations.
+
+            All official PDF links were validated.
+            The SEO audit and production build passed.
+          labels: content, automated
