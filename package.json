@@ -1,0 +1,30 @@
+{
+  "name": "ol-past-papers",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "sync:papers": "node scripts/sync-official-papers.mjs",
+    "sync:answers": "node scripts/sync-official-answers.mjs",
+    "sync:content": "npm run sync:papers && npm run sync:answers",
+    "validate:content": "node scripts/validate-content.mjs",
+    "audit:seo": "node scripts/seo-audit.mjs",
+    "check:deploy": "node scripts/deployment-check.mjs",
+    "check": "npm run validate:content && npm run audit:seo && npm run lint && npm run check:deploy && npm run build"
+  },
+  "dependencies": {
+    "next": "^16.3.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.8.0"
+  }
+}
